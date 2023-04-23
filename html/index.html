@@ -8,41 +8,49 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
   </head>
   <body>
-    <div class="longinform">
+
       <div class="container">
-        <h1 class="text-center"><b>ĐĂNG KÍ TÀI KHOẢN</b></h1>
-        <div class="row">
-          <div class="col-sm">Tên đăng nhập:</div>
-          <input
+        <form action="">
+        <h1 class="text-center font-weight-bold">ĐĂNG KÍ TÀI KHOẢN</h1>
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Tên đăng nhập:</label>
+          <div class="col-sm 10">
+            <input
             type="text"
             name=""
             id="login_account"
-            class="col-sm"
+            class="form-control"
             placeholder="Nhập vào tên đăng nhập"
-          />
+            />
+          </div>
         </div>
-        <div class="row">
-          <div class="col-sm">Mật khẩu:</div>
-          <input
-            type="text"
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Mật khẩu:</label>
+          <div class="col-sm 10">
+            <input
+            type="password"
             name=""
-            id="pass"
-            class="col-sm"
+            id="password"
+            class="form-control"
             placeholder="Nhập vào mật khẩu"
-          />
+            />
+          </div>
         </div>
-        <div class="row">
-          <div class="col-sm">Nhập lại mật khẩu:</div>
-          <input
-            type="text"
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Nhập lại mật khẩu:</label>
+          <div class="col-sm 10">
+            <input
+            type="password"
             name=""
-            id="pass-again"
-            class="col-sm"
-            placeholder="Nhập lại mật khẩu"
-          />
+            id="password_again"
+            class="form-control"
+            placeholder="Nhập lại tên đăng nhập"
+            />
+          </div>
         </div>
+        </form>
       </div>
-    </div>
+  
     <main>
       <div class="container">
         <form action="">
